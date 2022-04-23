@@ -1,12 +1,47 @@
+.palito{
+    background-color: black;
+    height: 100px;
+    width: 20px;
+    margin: auto;
+}
 
-/* 
+.semaforito{
+background-color: black;
+height: 250px;
+width: 100px;
+margin: auto;
+border-radius: 20px;
+}
+.rojo{
+background-color: red;
+height: 50px;
+width: 50px;
+border-radius: 50%;
+position: absolute;
+margin-top: 25px;
+margin-left: 25px;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
+.amarillo{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+.verde{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 25px;
 
-*/
+}
+
+.encender{
+    box-shadow:  0 0 30px 10px white ;
+}
